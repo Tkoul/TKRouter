@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TKRouter.h"
 
 FOUNDATION_EXPORT double TKRouterVersionNumber;
 FOUNDATION_EXPORT const unsigned char TKRouterVersionString[];

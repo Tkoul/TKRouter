@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13E8C9EB224A522400CB732C /* TKPushViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E8C9E9224A522400CB732C /* TKPushViewCtrl.m */; };
+		13E8C9EC224A522400CB732C /* TKMethodTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E8C9EA224A522400CB732C /* TKMethodTest.m */; };
+		33E7F2F1B5A10B6AD6C6223F /* libPods-TKRouter_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A009EF3065BE8E94ADA6959D /* libPods-TKRouter_Example.a */; };
+		5D54E8DDB71C43935DCE05AE /* libPods-TKRouter_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 108FE907BFEB1F860338B75D /* libPods-TKRouter_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,9 +24,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		60E1A75DEF42EA439B68A758 /* Pods_TKRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A27D12DE963ECD7196F3170 /* Pods_TKRouter_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		73A00BC4243B07AFC4A7D20A /* Pods_TKRouter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CE63A7A539AA8665BCCAA3 /* Pods_TKRouter_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,11 @@
 
 /* Begin PBXFileReference section */
 		050024EA970FD35FEDFF0B8C /* TKRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TKRouter.podspec; path = ../TKRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		108FE907BFEB1F860338B75D /* libPods-TKRouter_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TKRouter_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E8C9E7224A522400CB732C /* TKPushViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKPushViewCtrl.h; sourceTree = "<group>"; };
+		13E8C9E8224A522400CB732C /* TKMethodTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKMethodTest.h; sourceTree = "<group>"; };
+		13E8C9E9224A522400CB732C /* TKPushViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKPushViewCtrl.m; sourceTree = "<group>"; };
+		13E8C9EA224A522400CB732C /* TKMethodTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKMethodTest.m; sourceTree = "<group>"; };
 		256FBE5CD1B3C18292E440D7 /* Pods-TKRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKRouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKRouter_Example/Pods-TKRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2F6DDEF1B713F842F4665958 /* Pods-TKRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKRouter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKRouter_Tests/Pods-TKRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TKRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,10 +67,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7A27D12DE963ECD7196F3170 /* Pods_TKRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94F25B8BF0A085FBA5202CCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B0CE63A7A539AA8665BCCAA3 /* Pods_TKRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A009EF3065BE8E94ADA6959D /* libPods-TKRouter_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TKRouter_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B8D4F2BF057067B960E2DD /* Pods-TKRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKRouter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKRouter_Example/Pods-TKRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CD5E242BD66DD76DF5813188 /* Pods-TKRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKRouter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKRouter_Tests/Pods-TKRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD6A8A0D27B32D03618DAB19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -77,7 +83,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				73A00BC4243B07AFC4A7D20A /* Pods_TKRouter_Example.framework in Frameworks */,
+				33E7F2F1B5A10B6AD6C6223F /* libPods-TKRouter_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +94,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				60E1A75DEF42EA439B68A758 /* Pods_TKRouter_Tests.framework in Frameworks */,
+				5D54E8DDB71C43935DCE05AE /* libPods-TKRouter_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +140,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				B0CE63A7A539AA8665BCCAA3 /* Pods_TKRouter_Example.framework */,
-				7A27D12DE963ECD7196F3170 /* Pods_TKRouter_Tests.framework */,
+				A009EF3065BE8E94ADA6959D /* libPods-TKRouter_Example.a */,
+				108FE907BFEB1F860338B75D /* libPods-TKRouter_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +154,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* TKViewController.h */,
 				6003F5A6195388D20070C39A /* TKViewController.m */,
+				13E8C9E8224A522400CB732C /* TKMethodTest.h */,
+				13E8C9EA224A522400CB732C /* TKMethodTest.m */,
+				13E8C9E7224A522400CB732C /* TKPushViewCtrl.h */,
+				13E8C9E9224A522400CB732C /* TKPushViewCtrl.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -207,7 +217,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				A4FC7CF6291CF9DED9AFFD94 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,24 +303,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A4FC7CF6291CF9DED9AFFD94 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TKRouter_Example/Pods-TKRouter_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TKRouter/TKRouter.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKRouter.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TKRouter_Example/Pods-TKRouter_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B5933BAC038C3DC13AF73D6D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,7 +347,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* TKAppDelegate.m in Sources */,
+				13E8C9EC224A522400CB732C /* TKMethodTest.m in Sources */,
 				6003F5A7195388D20070C39A /* TKViewController.m in Sources */,
+				13E8C9EB224A522400CB732C /* TKPushViewCtrl.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,6 +1,6 @@
 # TKRouter
 
-[![CI Status](https://img.shields.io/travis/liudouA/TKRouter.svg?style=flat)](https://travis-ci.org/liudouA/TKRouter)
+[![CI Status](https://img.shields.io/travis/liudouA/TKRouter.svg?style=flat)](https://travis-ci.org/Tkoul/TKRouter)
 [![Version](https://img.shields.io/cocoapods/v/TKRouter.svg?style=flat)](https://cocoapods.org/pods/TKRouter)
 [![License](https://img.shields.io/cocoapods/l/TKRouter.svg?style=flat)](https://cocoapods.org/pods/TKRouter)
 [![Platform](https://img.shields.io/cocoapods/p/TKRouter.svg?style=flat)](https://cocoapods.org/pods/TKRouter)
@@ -22,7 +22,7 @@ pod 'TKRouter'
 
 ## Author
 
-liudouA, 13693118900@163.com
+Tkoul, 1171258080@qq.com
 
 ## License
 

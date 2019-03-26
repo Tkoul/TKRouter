@@ -1,0 +1,16 @@
+PODS:
+  - TKRouter (0.1.0)
+
+DEPENDENCIES:
+  - TKRouter (from `../`)
+
+EXTERNAL SOURCES:
+  TKRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TKRouter: 260d0f4ab95da6feb682bf6a2ce1cadbbbcc1922
+
+PODFILE CHECKSUM: 3bd0bc70bd0291927ae06ac3ff146137340f1e49
+
+COCOAPODS: 1.5.3

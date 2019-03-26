@@ -1,0 +1,6 @@
+framework module Pods_TKRouter_Example {
+  umbrella header "Pods-TKRouter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

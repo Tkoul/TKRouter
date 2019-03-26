@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/liudouA/TKRouter'
+  s.homepage         = 'https://github.com/Tkoul/TKRouter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'liudouA' => '13693118900@163.com' }
+  s.author           = { 'Tkoul' => '13693118900@163.com' }
   s.source           = { :git => 'https://github.com/liudouA/TKRouter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

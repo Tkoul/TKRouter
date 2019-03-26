@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TKRouter_Example' do
+  pod 'TKRouter', :path => '../'
+
+  target 'TKRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

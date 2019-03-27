@@ -50,13 +50,21 @@ TKRouter : 1.调用原子api ，没有什么规则，就像调用方法一样。
  
  
   AFNetworkReachabilityManager *maneage=[AFNetworkReachabilityManager sharedManager];
+  
         [maneage startMonitoring];
+        
         [maneage setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        
             if (status == 0) {
+            
                 //无网络链接
+                
             } else {
+            
                 //有网链接
+                
             }
+            
         }];
 
 TKRouter 实现：
@@ -64,15 +72,25 @@ TKRouter 实现：
 
 
    ReturnStruct  managerStur  = [[[TKRouter router] routerClassName:@"AFNetworkReachabilityManager"] classMethodSelect:@"sharedManager" parameter:nil, nil];
+   
         NSObject *objManager = managerStur.returnValue;
+        
         [objManager  instanceMethodSelect:@"startMonitoring" parameter:nil, nil];
+        
         void (^ReachabilityStatusChangeBlock)(NSInteger status) = ^(NSInteger status){
+        
             if (status == 0) {
+            
                 //无网络链接
+                
             } else {
+            
                //有网链接
+               
             }
+            
         };
+        
         [objManager instanceMethodSelect:@"setReachabilityStatusChangeBlock:" parameter:&ReachabilityStatusChangeBlock, nil];
         
 TKRouter 好处就是不需要关心依赖的框架，只要主工程有一份我就能运行通过TKRouter调用，组件工程不存在AFNetworking也依然可与执行pod lib lint 和 pod repo push！推送的是组件，想达到实际效果就在demo工程手动导入一下AFNetworking即可。pod推送，验证更demo工程无关。

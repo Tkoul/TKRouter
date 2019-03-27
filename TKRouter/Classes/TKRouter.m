@@ -8,6 +8,11 @@
 #import "TKRouter.h"
 
 @implementation TKRouter
+/**
+ 单利方法。初始化路由器
+ 
+ @return 单利对象
+ */
 + (instancetype)router
 {
     static TKRouter *router;
@@ -18,6 +23,12 @@
     });
     return router;
 }
+/**
+ 初始化 类。可直接通过NSClassFromString 获取。在这里为保持陆游的美观。才写上
+ 
+ @param className 类字符串名字
+ @return 返回类对象
+ */
 - (Class)routerClassName:(NSString*)className;{
     
     Class  class = nil;
@@ -27,7 +38,12 @@
     
     return class;
 }
-
+/**
+ 初始化 类对象。获取类的初始化对象。
+ 
+ @param className 类名
+ @return 返回ReturnStruct结构体 包含实例对象 和 返回值。 类的初始化实例
+ */
 - (id)routerGetInstanceWithClassName:(NSString*)className
 {
     Class  class = nil;

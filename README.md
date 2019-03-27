@@ -42,6 +42,43 @@ TKRouter : 1.调用原子api ，没有什么规则，就像调用方法一样。
            
 下面是我的某个组件调用AFNetworking的网络检测代码：
 
+ 常规实现：
+ 1. 项目依赖 AFNetworking
+ 2. 实现的地方引入 AFNetworkReachabilityManager.h
+ 3. 实现如下代码
+  AFNetworkReachabilityManager *maneage=[AFNetworkReachabilityManager sharedManager];
+        [maneage startMonitoring];
+        [maneage setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+            if (status == 0) {
+                //无网络链接
+            } else {
+                //有网链接
+            }
+        }];
+
+TKRouter 实现：
+直接上代码 ，不要依赖，不需要引入头文件：
+   ReturnStruct  managerStur  = [[[TKRouter router] routerClassName:@"AFNetworkReachabilityManager"] classMethodSelect:@"sharedManager" parameter:nil, nil];
+        NSObject *objManager = managerStur.returnValue;
+        [objManager  instanceMethodSelect:@"startMonitoring" parameter:nil, nil];
+        void (^ReachabilityStatusChangeBlock)(NSInteger status) = ^(NSInteger status){
+            if (status == 0) {
+                //无网络链接
+            } else {
+               //有网链接
+            }
+        };
+        [objManager instanceMethodSelect:@"setReachabilityStatusChangeBlock:" parameter:&ReachabilityStatusChangeBlock, nil];
+        
+TKRouter 好处就是不需要关心依赖的框架，只要主工程有一份我就能运行通过TKRouter调用，组件工程不存在AFNetworking也依然可与执行pod lib lint 和 pod repo push！推送的是组件，想达到实际效果就在demo工程手动导入一下AFNetworking即可。pod推送，验证更demo工程无关。
+
+那么 以上的诸多问题全部得到解决！且无任何成本！
+
+注意事项：TKRouter 强大的原子调用毋庸置疑，三方sdk一旦开源！api就固定了，所以主工程种几百个组件有一个AFNetworking就够了，因为AFNetworking的api一般不会随着版本升级而变更，只会里面的实现会有所变更。但是咱们不关心啊，有其他团队维护呢。😄
+好处：咱们不用关系他升级到第几个版本，让别的团队更新维护版本，而我们只关注api！
+缺点：某个开源库万不得已改变了api！ 那么由于我们用的路由aop思想编写出来的程序，api变化，我们组件并没有报错，红点提示。所以每次开源库大版本升级关注下api变化即可。一般万年不遇！😄再说，一般都会叠戴几个版本才会慢慢抛弃一些方法。
+
+不要告诉我，你懒到自己代码写一遍，一万年都不在维护吧。😄
 
 
 

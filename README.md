@@ -39,9 +39,10 @@ B单独开发：B为老组件，很早就引入pod 'AFNetworking', '~> 2.0'  然
 TKRouter : 1.调用原子api ，没有什么规则，就像调用方法一样。
            2.多组件开发，都依赖某些第三方组件的时候，比如AFNetworking，我们一旦确定几百个团队有一个在用AFNetworking，那么我们就不管依赖的事情了
            甚至不去维护它，瞅一眼都懒！ 我们就直接路由调用。我们的项目和AFNetworking无任何直接关系，头文件都不需要引入。
-下面是我的某个组件调用AFNetworking的代码：
+           
+下面是我的某个组件调用AFNetworking的网络检测代码：
 
-            
+
 
 
 ## Example

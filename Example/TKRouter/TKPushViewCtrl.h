@@ -9,12 +9,19 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
+@class TKPushViewCtrl;
 
 typedef enum : NSUInteger {
     TypeOne_RedColor,
     TypeTwo_CyColor,
     TypeThere_OranColor,
 } TestColorType;
+
+@protocol DelegeteTest <NSObject>
+
+- (void)DelegeteTestMethod:(TKPushViewCtrl*)ctrl;
+
+@end
 
 @interface TKPushViewCtrl : UIViewController
 //属性1 对象类型
@@ -25,11 +32,15 @@ typedef enum : NSUInteger {
 //属性3  block
 @property(assign,nonatomic)void (^callBackBlock)(NSString* callBlockStr);
 
+//属性4 delegete
+@property(weak,nonatomic) id <DelegeteTest> delegete;
 
 
 - (void)TestWithBackColorType:(TestColorType)colorType;
 
 
 @end
+
+
 
 NS_ASSUME_NONNULL_END

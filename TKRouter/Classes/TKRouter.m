@@ -124,7 +124,6 @@
  */
 - (ReturnStruct)transferRouterObject:(id)object setPropertyParameter:(NSDictionary*)propertyParameter methodSelect:(NSString*)selectString parameter:(NSArray*)Parameters
 {
-    
     NSString  *className = nil;
     if ([object isKindOfClass:[NSString class]]) {
         className = [NSString stringWithFormat:@"%@",object];
@@ -136,23 +135,25 @@
         }
         SEL methodSelect = NSSelectorFromString(methodpString);
         if ([class  respondsToSelector:methodSelect]) {
-            NSMethodSignature *singnature = [class methodSignatureForSelector:methodSelect];
-            NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:singnature];
-            invocation.target = class;
-            invocation.selector = methodSelect;
-            
-            [Parameters enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            @synchronized (self) {
+                NSMethodSignature *singnature = [class methodSignatureForSelector:methodSelect];
+                NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:singnature];
+                invocation.target = class;
+                invocation.selector = methodSelect;
                 
-                NSUInteger bufferSize = 0;
-                NSGetSizeAndAlignment([obj objCType], &bufferSize, NULL);
-                void *buffer = malloc(bufferSize);
-                [obj getValue:&buffer];
-                [invocation setArgument:buffer atIndex:(2+idx)];
-            }];;
-            
-            [invocation retainArguments];
-            [invocation invoke];
-            return [self  getreturnResultDependSingnature:singnature dependInvocation:invocation  withInstance:nil];
+                [Parameters enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                    NSUInteger bufferSize = 0;
+                    NSGetSizeAndAlignment([obj objCType], &bufferSize, NULL);
+                    void *buffer = malloc(bufferSize);
+                    [obj getValue:&buffer];
+                    [invocation setArgument:buffer atIndex:(2+idx)];
+                }];;
+                
+                [invocation retainArguments];
+                [invocation invoke];
+                return [self  getreturnResultDependSingnature:singnature dependInvocation:invocation  withInstance:nil];
+            }
+           
         }
         
         ReturnStruct  returnInfoStrut;
@@ -182,35 +183,36 @@
             methodpString = selectString;
         }
         SEL methodSelect = NSSelectorFromString(methodpString);
-        
-        [propertyParameter  enumerateKeysAndObjectsWithOptions:NSEnumerationReverse usingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
-            [instanceCtrl  setValue:obj forKey:key];
-            
-        }];
-        
-        if ([instanceCtrl respondsToSelector:methodSelect]) {
-            NSMethodSignature *singnature = [instanceCtrl  methodSignatureForSelector:methodSelect];
-            
-            NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:singnature];
-            invocation.target = instanceCtrl;
-            invocation.selector = methodSelect;
-            [Parameters enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        @synchronized (self) {
+            [propertyParameter  enumerateKeysAndObjectsWithOptions:NSEnumerationReverse usingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+                [instanceCtrl  setValue:obj forKey:key];
                 
-                NSUInteger bufferSize = 0;
-                NSGetSizeAndAlignment([obj objCType], &bufferSize, NULL);
-                void *buffer = malloc(bufferSize);
-                [obj getValue:&buffer];
-                [invocation setArgument:buffer atIndex:(2+idx)];
             }];
             
-            [invocation retainArguments];
-            [invocation invoke];
-            
-            return [self  getreturnResultDependSingnature:singnature dependInvocation:invocation withInstance:instanceCtrl];
-            
+            if ([instanceCtrl respondsToSelector:methodSelect]) {
+                NSMethodSignature *singnature = [instanceCtrl  methodSignatureForSelector:methodSelect];
+                
+                NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:singnature];
+                invocation.target = instanceCtrl;
+                invocation.selector = methodSelect;
+                [Parameters enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                    
+                    NSUInteger bufferSize = 0;
+                    NSGetSizeAndAlignment([obj objCType], &bufferSize, NULL);
+                    void *buffer = malloc(bufferSize);
+                    [obj getValue:&buffer];
+                    [invocation setArgument:buffer atIndex:(2+idx)];
+                }];
+                
+                [invocation retainArguments];
+                [invocation invoke];
+                
+                return [self  getreturnResultDependSingnature:singnature dependInvocation:invocation withInstance:instanceCtrl];
+                
+                
+            }
             
         }
-        
         ReturnStruct  returnInfoStrut;
         returnInfoStrut.instanceObject = nil;
         returnInfoStrut.returnValue = nil;

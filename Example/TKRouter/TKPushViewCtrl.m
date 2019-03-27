@@ -16,8 +16,43 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSArray  *titileArry = @[@"代理测试",@"返回"];
+    for (int i=0; i<2; i++) {
+        UIButton  *btnTest = [UIButton buttonWithType:UIButtonTypeCustom];
+        btnTest.frame = CGRectMake((UIScreen.mainScreen.bounds.size.width-150)/2, 100+100*i, 150, 50);
+        [btnTest setBackgroundColor:UIColor.cyanColor];
+        [btnTest  setTitle:titileArry[i] forState:UIControlStateNormal];
+        [btnTest.titleLabel setFont:[UIFont systemFontOfSize:14]];
+        [btnTest setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
+        [btnTest.layer setCornerRadius:25];
+        btnTest.tag = i;
+        [btnTest addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:btnTest];
+    }
     // Do any additional setup after loading the view.
 }
+
+- (void)btnAction:(UIButton*)sender{
+    
+    switch (sender.tag) {
+        case 0:
+            if ([_delegete respondsToSelector:@selector(DelegeteTestMethod:)]) {
+                [_delegete  DelegeteTestMethod:self];
+            }
+            break;
+        case 1:
+            [self  dismissViewControllerAnimated:YES completion:nil];
+            break;
+            
+        default:
+            break;
+    }
+    
+    
+}
+    
+
 
 - (void)TestWithBackColorType:(TestColorType)colorType{
     

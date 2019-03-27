@@ -9,6 +9,7 @@
 ##介绍
 
 1.Api万能路由利用AOP编程思想，指针参数，等来实现任意object-c 的API调用。
+
 2.本sdk用于组件化开发模式，多sdk嵌套等复杂的情况！解决项目开发的耦合度。
 
 组件开发模式：在庞大项目开发下，有多个sdk共同开发。主app就是一个空壳，各个组件sdk开发完毕，进行pod验证，打tag，执行repo push操作，最后提交到公司仓库。最后只要在主app进行多pod依赖，一键pod update ！把各个组件sdk拉下来！这就是最常用的组件开发。鄙人所在公司也是这种开发模式。
@@ -46,6 +47,8 @@ TKRouter : 1.调用原子api ，没有什么规则，就像调用方法一样。
  1. 项目依赖 AFNetworking
  2. 实现的地方引入 AFNetworkReachabilityManager.h
  3. 实现如下代码
+ 
+ 
   AFNetworkReachabilityManager *maneage=[AFNetworkReachabilityManager sharedManager];
         [maneage startMonitoring];
         [maneage setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
@@ -58,6 +61,8 @@ TKRouter : 1.调用原子api ，没有什么规则，就像调用方法一样。
 
 TKRouter 实现：
 直接上代码 ，不要依赖，不需要引入头文件：
+
+
    ReturnStruct  managerStur  = [[[TKRouter router] routerClassName:@"AFNetworkReachabilityManager"] classMethodSelect:@"sharedManager" parameter:nil, nil];
         NSObject *objManager = managerStur.returnValue;
         [objManager  instanceMethodSelect:@"startMonitoring" parameter:nil, nil];

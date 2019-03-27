@@ -22,7 +22,7 @@ pod 'TKRouter'
 
 ## Author
 
-Tkoul, 13693118900@163.com
+Tkoul, Tkoull@163.com
 
 ## License
 

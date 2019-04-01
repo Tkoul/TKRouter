@@ -2,8 +2,8 @@
 //  TKPushViewCtrl.m
 //  TKRouter
 //
-//  Created by 刘豆 on 2019/3/26.
-//  Copyright © 2019年 liudouA. All rights reserved.
+//  Created by Tkoul on 2019/3/26.
+//  Copyright © 2019年 Tkoul. All rights reserved.
 //
 
 #import "TKPushViewCtrl.h"

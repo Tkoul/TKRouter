@@ -2,8 +2,8 @@
 //  TKAppDelegate.m
 //  TKRouter
 //
-//  Created by liudouA on 03/26/2019.
-//  Copyright (c) 2019 liudouA. All rights reserved.
+//  Created by Tkoul on 03/26/2019.
+//  Copyright (c) 2019 Tkoul. All rights reserved.
 //
 
 #import "TKAppDelegate.h"

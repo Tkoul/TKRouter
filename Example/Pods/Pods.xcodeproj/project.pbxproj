@@ -7,75 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06EA775199A35F97726BCC3E3A1ED8B4 /* TKRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D64FE867CD052E4F132CD0A1DB28961 /* TKRouter-dummy.m */; };
-		8839DBA4F5D0D275238DDE0354C0A318 /* Pods-TKRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FB8BBE3664067BDD1E0E111B789E2 /* Pods-TKRouter_Tests-dummy.m */; };
-		DBBD8F5C5782A900C641DB256D0DB182 /* TKRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = F2C9B10E3870D877591463116812C2F2 /* TKRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E0B8DC1BB65480E51A2E077028EB113B /* TKRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E355EFB565F83B97AAEAE5C36DFC98 /* TKRouter.m */; };
-		E21C1B4A2C4B482C28B37F6850D6F8D6 /* Pods-TKRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A895A5A217D34AEEDC2B7ED5B2E9CA23 /* Pods-TKRouter_Example-dummy.m */; };
+		0DEC9B0DC41CAD813AA810EF86E57E76 /* TKRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FC4363FD56587D6FA422E78D23105D /* TKRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75FE31C9503A8658E0040698D1A5627B /* Pods-TKRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EEF1B33AE92C58A68632EB3D1A0B1A /* Pods-TKRouter_Tests-dummy.m */; };
+		91B2CB5264A1C769BBEAB8E81AD28CB3 /* TKRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 712DDAE69490EB9BFC3C1B01883E823D /* TKRouter-dummy.m */; };
+		B4C7F9CBF307A1D9CDC609E00224829A /* TKRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B8C6C02D0223768716C13678ECE13 /* TKRouter.m */; };
+		DF6F768A601E3CB9D25F220E0DC03C7F /* Pods-TKRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C240688649939956F4A704D6C76CD /* Pods-TKRouter_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5678774BDF4B87B8CBAE6CCD87D98722 /* PBXContainerItemProxy */ = {
+		8165B53976B81EC74F5EE7865576EB5B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E8D75383C0D7C21DCC35D7DA015D946B;
+			remoteGlobalIDString = 8800EE2879D87F322AE1BAC42F6093D1;
 			remoteInfo = TKRouter;
 		};
-		817F6101D58D95AC1472293FA33349E7 /* PBXContainerItemProxy */ = {
+		A2E2A8D4047F903CD6D913CFBE5E130A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5FE02349F98DC0374D588377E57A9CCA;
+			remoteGlobalIDString = AB7D7E2A56938419554180737A0D841E;
 			remoteInfo = "Pods-TKRouter_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08917D1CB2B36289A1388C265C1FDC9B /* Pods-TKRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0ACEB868B0103BDC64B31ADC67353180 /* Pods-TKRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		11153CA1F808EF8C219697A1B9DA3BF2 /* libTKRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTKRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D64FE867CD052E4F132CD0A1DB28961 /* TKRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKRouter-dummy.m"; sourceTree = "<group>"; };
-		3C7E3700C83A602F8BE665D50EFDDF29 /* Pods-TKRouter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKRouter_Example-resources.sh"; sourceTree = "<group>"; };
-		43CB53AE16EDE30990AC1C935928707C /* TKRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKRouter.xcconfig; sourceTree = "<group>"; };
-		4C261364C7A7FAE23D21E0E497A90996 /* Pods-TKRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4C85A7A9C3164B378BC0D9F53A77E7A2 /* Pods-TKRouter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKRouter_Tests-resources.sh"; sourceTree = "<group>"; };
-		605EF6FF869508C974C743CBF7F932F1 /* libPods-TKRouter_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TKRouter_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		61E355EFB565F83B97AAEAE5C36DFC98 /* TKRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKRouter.m; path = TKRouter/Classes/TKRouter.m; sourceTree = "<group>"; };
-		7D8FB8BBE3664067BDD1E0E111B789E2 /* Pods-TKRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKRouter_Tests-dummy.m"; sourceTree = "<group>"; };
-		8529AD5DCAF8AF54DEF444DCF6BBA6E9 /* Pods-TKRouter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKRouter_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		946788601A5FD91BC96B370B88DDC003 /* Pods-TKRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A4C8967F2FA6E81DE4A36BADB805FFD9 /* TKRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TKRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A895A5A217D34AEEDC2B7ED5B2E9CA23 /* Pods-TKRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKRouter_Example-dummy.m"; sourceTree = "<group>"; };
-		B2EE371357055790B1C1D992C34836BC /* Pods-TKRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BA0903C09D86F1D880B1A2DF74092E32 /* Pods-TKRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C5EAC88C5E72CBD96BE344ED46E8A28D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C686C8ABD4E542331CA4EDB53251AEC5 /* Pods-TKRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CC9BC95D438F5B43164344818B537F80 /* Pods-TKRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CEB57164B2273240AE954A93B1350789 /* Pods-TKRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DABA75716371AEEF3F47C036EF6F2275 /* TKRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKRouter-prefix.pch"; sourceTree = "<group>"; };
-		E35C4AF3BB57CB265412BC8F1288396B /* libPods-TKRouter_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TKRouter_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2C9B10E3870D877591463116812C2F2 /* TKRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKRouter.h; path = TKRouter/Classes/TKRouter.h; sourceTree = "<group>"; };
-		FCCE4B1CF70DD130BD3D98E0037444CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06E4E1ADD00B9B3BC65B70BD07A95C59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0838CB36F81B7F9AEDD65EDCC5F9D1E1 /* Pods-TKRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F904FA2DCEE8B3B5E8726434B495C98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		164EA47C223E7E222706CAB1BA77843E /* libPods-TKRouter_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TKRouter_Tests.a"; path = "libPods-TKRouter_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DFAF9EE83730ABEC8361E130E06E80 /* libTKRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTKRouter.a; path = libTKRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		242A256F242643297A19AB7A85D8CAD6 /* Pods-TKRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2C32710E662124DEF71D3B26D1C59606 /* Pods-TKRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BE7D7E0FB428B1E76B1FFBC3F609A61 /* Pods-TKRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		402DB8BDEA792672EFB83F64EB748A1F /* Pods-TKRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		712DDAE69490EB9BFC3C1B01883E823D /* TKRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKRouter-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F3B8C6C02D0223768716C13678ECE13 /* TKRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKRouter.m; path = TKRouter/Classes/TKRouter.m; sourceTree = "<group>"; };
+		A2FC4363FD56587D6FA422E78D23105D /* TKRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKRouter.h; path = TKRouter/Classes/TKRouter.h; sourceTree = "<group>"; };
+		B40C240688649939956F4A704D6C76CD /* Pods-TKRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKRouter_Example-dummy.m"; sourceTree = "<group>"; };
+		BB0DFD01118C14310B7C558B89051C53 /* TKRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKRouter.xcconfig; sourceTree = "<group>"; };
+		BD99AB283897B713C6F012AD88B34B45 /* Pods-TKRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFC5CFB7DE65580D6F49091A54515C2C /* TKRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKRouter-prefix.pch"; sourceTree = "<group>"; };
+		E0BECBD2D05F2C7FD1D42AFEFBFD9D44 /* Pods-TKRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E0EEF1B33AE92C58A68632EB3D1A0B1A /* Pods-TKRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKRouter_Tests-dummy.m"; sourceTree = "<group>"; };
+		E417F6398023C1E1672907A0113E1A88 /* libPods-TKRouter_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TKRouter_Example.a"; path = "libPods-TKRouter_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B94FA6AA9D66A9CBF8B3EDD3C95FEB /* Pods-TKRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EAAACCC71190F1B980E690561C760537 /* TKRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TKRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		61168058EB0CA5E833C587791AE0F5DE /* Frameworks */ = {
+		8C19CDDEAF7805C1527DDC067FA7825D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B40E3C23ED57864B471741A445658C88 /* Frameworks */ = {
+		AB4F0FCADB24D89C7E8CCC835ED469A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA1A2EF289EAC73C0B8AFD0DDDBEFC2C /* Frameworks */ = {
+		D25A34BF314468B7884446774B0EBF03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,169 +81,145 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04EB4AC26D6DB633706044A307D076ED /* Pods-TKRouter_Example */ = {
+		190AEE5EE33D2AB4404AAF90D40E9405 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4C261364C7A7FAE23D21E0E497A90996 /* Pods-TKRouter_Example-acknowledgements.markdown */,
-				08917D1CB2B36289A1388C265C1FDC9B /* Pods-TKRouter_Example-acknowledgements.plist */,
-				A895A5A217D34AEEDC2B7ED5B2E9CA23 /* Pods-TKRouter_Example-dummy.m */,
-				BA0903C09D86F1D880B1A2DF74092E32 /* Pods-TKRouter_Example-frameworks.sh */,
-				3C7E3700C83A602F8BE665D50EFDDF29 /* Pods-TKRouter_Example-resources.sh */,
-				946788601A5FD91BC96B370B88DDC003 /* Pods-TKRouter_Example.debug.xcconfig */,
-				C686C8ABD4E542331CA4EDB53251AEC5 /* Pods-TKRouter_Example.release.xcconfig */,
+				0F904FA2DCEE8B3B5E8726434B495C98 /* LICENSE */,
+				06E4E1ADD00B9B3BC65B70BD07A95C59 /* README.md */,
+				EAAACCC71190F1B980E690561C760537 /* TKRouter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		52351440790CB4AA29E2242EBD72A84B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E417F6398023C1E1672907A0113E1A88 /* libPods-TKRouter_Example.a */,
+				164EA47C223E7E222706CAB1BA77843E /* libPods-TKRouter_Tests.a */,
+				17DFAF9EE83730ABEC8361E130E06E80 /* libTKRouter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87933058DFB58DBCAA294073D65E7DE8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB0DFD01118C14310B7C558B89051C53 /* TKRouter.xcconfig */,
+				712DDAE69490EB9BFC3C1B01883E823D /* TKRouter-dummy.m */,
+				BFC5CFB7DE65580D6F49091A54515C2C /* TKRouter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TKRouter";
+			sourceTree = "<group>";
+		};
+		9F44342F69068117BDBB198A3AB10C16 /* Pods-TKRouter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BD99AB283897B713C6F012AD88B34B45 /* Pods-TKRouter_Example-acknowledgements.markdown */,
+				E7B94FA6AA9D66A9CBF8B3EDD3C95FEB /* Pods-TKRouter_Example-acknowledgements.plist */,
+				B40C240688649939956F4A704D6C76CD /* Pods-TKRouter_Example-dummy.m */,
+				242A256F242643297A19AB7A85D8CAD6 /* Pods-TKRouter_Example.debug.xcconfig */,
+				3BE7D7E0FB428B1E76B1FFBC3F609A61 /* Pods-TKRouter_Example.release.xcconfig */,
 			);
 			name = "Pods-TKRouter_Example";
 			path = "Target Support Files/Pods-TKRouter_Example";
 			sourceTree = "<group>";
 		};
-		0A49A7A90F15723BE26965E39B4E812A /* TKRouter */ = {
+		B501C7FB9FC11B8D77F5E548757AB954 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F2C9B10E3870D877591463116812C2F2 /* TKRouter.h */,
-				61E355EFB565F83B97AAEAE5C36DFC98 /* TKRouter.m */,
-				BDE843937B302726FBC1D5A4B15C8198 /* Pod */,
-				8787722EAE86BB035AC7E87C855B3E32 /* Support Files */,
+				D8DB06F1354AD94BB10EF99F6B64CA80 /* TKRouter */,
 			);
-			name = TKRouter;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B501C7FB9FC11B8D77F5E548757AB954 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				52351440790CB4AA29E2242EBD72A84B /* Products */,
+				E8FB9840B538034A5BBCE049BB58460D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D7CFB7BC68EB566CC34475310DFCD3A9 /* Pods-TKRouter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E0BECBD2D05F2C7FD1D42AFEFBFD9D44 /* Pods-TKRouter_Tests-acknowledgements.markdown */,
+				2C32710E662124DEF71D3B26D1C59606 /* Pods-TKRouter_Tests-acknowledgements.plist */,
+				E0EEF1B33AE92C58A68632EB3D1A0B1A /* Pods-TKRouter_Tests-dummy.m */,
+				0838CB36F81B7F9AEDD65EDCC5F9D1E1 /* Pods-TKRouter_Tests.debug.xcconfig */,
+				402DB8BDEA792672EFB83F64EB748A1F /* Pods-TKRouter_Tests.release.xcconfig */,
+			);
+			name = "Pods-TKRouter_Tests";
+			path = "Target Support Files/Pods-TKRouter_Tests";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		D8DB06F1354AD94BB10EF99F6B64CA80 /* TKRouter */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				97083165D0C828EED751033B4CB60D01 /* Development Pods */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				F6BCE4689BFDF01D214242FB34ADA62F /* Products */,
-				DC821018E0656C4ADD86D5FC863DE14F /* Targets Support Files */,
+				A2FC4363FD56587D6FA422E78D23105D /* TKRouter.h */,
+				9F3B8C6C02D0223768716C13678ECE13 /* TKRouter.m */,
+				190AEE5EE33D2AB4404AAF90D40E9405 /* Pod */,
+				87933058DFB58DBCAA294073D65E7DE8 /* Support Files */,
 			);
+			name = TKRouter;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		8787722EAE86BB035AC7E87C855B3E32 /* Support Files */ = {
+		E8FB9840B538034A5BBCE049BB58460D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				43CB53AE16EDE30990AC1C935928707C /* TKRouter.xcconfig */,
-				1D64FE867CD052E4F132CD0A1DB28961 /* TKRouter-dummy.m */,
-				DABA75716371AEEF3F47C036EF6F2275 /* TKRouter-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TKRouter";
-			sourceTree = "<group>";
-		};
-		97083165D0C828EED751033B4CB60D01 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0A49A7A90F15723BE26965E39B4E812A /* TKRouter */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BDE843937B302726FBC1D5A4B15C8198 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C5EAC88C5E72CBD96BE344ED46E8A28D /* LICENSE */,
-				FCCE4B1CF70DD130BD3D98E0037444CD /* README.md */,
-				A4C8967F2FA6E81DE4A36BADB805FFD9 /* TKRouter.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		DC821018E0656C4ADD86D5FC863DE14F /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				04EB4AC26D6DB633706044A307D076ED /* Pods-TKRouter_Example */,
-				E7EF78B1CDD274D2B8B3B4FB6650D31F /* Pods-TKRouter_Tests */,
+				9F44342F69068117BDBB198A3AB10C16 /* Pods-TKRouter_Example */,
+				D7CFB7BC68EB566CC34475310DFCD3A9 /* Pods-TKRouter_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E7EF78B1CDD274D2B8B3B4FB6650D31F /* Pods-TKRouter_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				B2EE371357055790B1C1D992C34836BC /* Pods-TKRouter_Tests-acknowledgements.markdown */,
-				CC9BC95D438F5B43164344818B537F80 /* Pods-TKRouter_Tests-acknowledgements.plist */,
-				7D8FB8BBE3664067BDD1E0E111B789E2 /* Pods-TKRouter_Tests-dummy.m */,
-				8529AD5DCAF8AF54DEF444DCF6BBA6E9 /* Pods-TKRouter_Tests-frameworks.sh */,
-				4C85A7A9C3164B378BC0D9F53A77E7A2 /* Pods-TKRouter_Tests-resources.sh */,
-				CEB57164B2273240AE954A93B1350789 /* Pods-TKRouter_Tests.debug.xcconfig */,
-				0ACEB868B0103BDC64B31ADC67353180 /* Pods-TKRouter_Tests.release.xcconfig */,
-			);
-			name = "Pods-TKRouter_Tests";
-			path = "Target Support Files/Pods-TKRouter_Tests";
-			sourceTree = "<group>";
-		};
-		F6BCE4689BFDF01D214242FB34ADA62F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E35C4AF3BB57CB265412BC8F1288396B /* libPods-TKRouter_Example.a */,
-				605EF6FF869508C974C743CBF7F932F1 /* libPods-TKRouter_Tests.a */,
-				11153CA1F808EF8C219697A1B9DA3BF2 /* libTKRouter.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C9C3E65AD2C30E8A515BCA3DE7236227 /* Headers */ = {
+		30613970CD360FD554261AD4E9F59766 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBBD8F5C5782A900C641DB256D0DB182 /* TKRouter.h in Headers */,
+				0DEC9B0DC41CAD813AA810EF86E57E76 /* TKRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732007385741051D66DBE9C6CD799252 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D764EC80167946C4CFA6400CBA7F3C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5FE02349F98DC0374D588377E57A9CCA /* Pods-TKRouter_Example */ = {
+		8800EE2879D87F322AE1BAC42F6093D1 /* TKRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 331F07A17AEE37B817F855988866274E /* Build configuration list for PBXNativeTarget "Pods-TKRouter_Example" */;
+			buildConfigurationList = DDB280C38437E2FF7E76755F457E1A1E /* Build configuration list for PBXNativeTarget "TKRouter" */;
 			buildPhases = (
-				7CAEDFC25F69DDA0C752FCCE485F3F5D /* Sources */,
-				BA1A2EF289EAC73C0B8AFD0DDDBEFC2C /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BBD9E218F732B8834497B04B985B090D /* PBXTargetDependency */,
-			);
-			name = "Pods-TKRouter_Example";
-			productName = "Pods-TKRouter_Example";
-			productReference = E35C4AF3BB57CB265412BC8F1288396B /* libPods-TKRouter_Example.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		E574CF387AC43CA2738560582AEF53FC /* Pods-TKRouter_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D370BAA22A81C43DE7A45D16ADCD8630 /* Build configuration list for PBXNativeTarget "Pods-TKRouter_Tests" */;
-			buildPhases = (
-				E92A00BB91C2AFDB62D90F306090B448 /* Sources */,
-				61168058EB0CA5E833C587791AE0F5DE /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6CE92DC3F8DCA862E2D257C9A2A60914 /* PBXTargetDependency */,
-			);
-			name = "Pods-TKRouter_Tests";
-			productName = "Pods-TKRouter_Tests";
-			productReference = 605EF6FF869508C974C743CBF7F932F1 /* libPods-TKRouter_Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		E8D75383C0D7C21DCC35D7DA015D946B /* TKRouter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75E11D45F32BF07306B61F188B8C2DB1 /* Build configuration list for PBXNativeTarget "TKRouter" */;
-			buildPhases = (
-				A9BCE554984B9BEFADF6D5906035959D /* Sources */,
-				B40E3C23ED57864B471741A445658C88 /* Frameworks */,
-				C9C3E65AD2C30E8A515BCA3DE7236227 /* Headers */,
+				30613970CD360FD554261AD4E9F59766 /* Headers */,
+				4B5F0D1FAE32F074538A0B0243B0C8A3 /* Sources */,
+				AB4F0FCADB24D89C7E8CCC835ED469A7 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,105 +227,144 @@
 			);
 			name = TKRouter;
 			productName = TKRouter;
-			productReference = 11153CA1F808EF8C219697A1B9DA3BF2 /* libTKRouter.a */;
+			productReference = 17DFAF9EE83730ABEC8361E130E06E80 /* libTKRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AB7D7E2A56938419554180737A0D841E /* Pods-TKRouter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28D088651DBB2C7158AA2FAC471D1C11 /* Build configuration list for PBXNativeTarget "Pods-TKRouter_Example" */;
+			buildPhases = (
+				732007385741051D66DBE9C6CD799252 /* Headers */,
+				54A9504D4DC8D5473FF66411DF4D35E6 /* Sources */,
+				D25A34BF314468B7884446774B0EBF03 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA94491D843E84CA6CF30E1E748FFDB9 /* PBXTargetDependency */,
+			);
+			name = "Pods-TKRouter_Example";
+			productName = "Pods-TKRouter_Example";
+			productReference = E417F6398023C1E1672907A0113E1A88 /* libPods-TKRouter_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D45FD87E20E09A5E2798DDA7CAA39A42 /* Pods-TKRouter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8EF9FE536854D7EFEC5FC6CEC74716 /* Build configuration list for PBXNativeTarget "Pods-TKRouter_Tests" */;
+			buildPhases = (
+				7D764EC80167946C4CFA6400CBA7F3C6 /* Headers */,
+				EB3697B5087BC4C7611C4C8A88CCB9E7 /* Sources */,
+				8C19CDDEAF7805C1527DDC067FA7825D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF045D120A6C1037738FD3EB6B147574 /* PBXTargetDependency */,
+			);
+			name = "Pods-TKRouter_Tests";
+			productName = "Pods-TKRouter_Tests";
+			productReference = 164EA47C223E7E222706CAB1BA77843E /* libPods-TKRouter_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F6BCE4689BFDF01D214242FB34ADA62F /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 52351440790CB4AA29E2242EBD72A84B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5FE02349F98DC0374D588377E57A9CCA /* Pods-TKRouter_Example */,
-				E574CF387AC43CA2738560582AEF53FC /* Pods-TKRouter_Tests */,
-				E8D75383C0D7C21DCC35D7DA015D946B /* TKRouter */,
+				AB7D7E2A56938419554180737A0D841E /* Pods-TKRouter_Example */,
+				D45FD87E20E09A5E2798DDA7CAA39A42 /* Pods-TKRouter_Tests */,
+				8800EE2879D87F322AE1BAC42F6093D1 /* TKRouter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7CAEDFC25F69DDA0C752FCCE485F3F5D /* Sources */ = {
+		4B5F0D1FAE32F074538A0B0243B0C8A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21C1B4A2C4B482C28B37F6850D6F8D6 /* Pods-TKRouter_Example-dummy.m in Sources */,
+				91B2CB5264A1C769BBEAB8E81AD28CB3 /* TKRouter-dummy.m in Sources */,
+				B4C7F9CBF307A1D9CDC609E00224829A /* TKRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9BCE554984B9BEFADF6D5906035959D /* Sources */ = {
+		54A9504D4DC8D5473FF66411DF4D35E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06EA775199A35F97726BCC3E3A1ED8B4 /* TKRouter-dummy.m in Sources */,
-				E0B8DC1BB65480E51A2E077028EB113B /* TKRouter.m in Sources */,
+				DF6F768A601E3CB9D25F220E0DC03C7F /* Pods-TKRouter_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E92A00BB91C2AFDB62D90F306090B448 /* Sources */ = {
+		EB3697B5087BC4C7611C4C8A88CCB9E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8839DBA4F5D0D275238DDE0354C0A318 /* Pods-TKRouter_Tests-dummy.m in Sources */,
+				75FE31C9503A8658E0040698D1A5627B /* Pods-TKRouter_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6CE92DC3F8DCA862E2D257C9A2A60914 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TKRouter_Example";
-			target = 5FE02349F98DC0374D588377E57A9CCA /* Pods-TKRouter_Example */;
-			targetProxy = 817F6101D58D95AC1472293FA33349E7 /* PBXContainerItemProxy */;
-		};
-		BBD9E218F732B8834497B04B985B090D /* PBXTargetDependency */ = {
+		EA94491D843E84CA6CF30E1E748FFDB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TKRouter;
-			target = E8D75383C0D7C21DCC35D7DA015D946B /* TKRouter */;
-			targetProxy = 5678774BDF4B87B8CBAE6CCD87D98722 /* PBXContainerItemProxy */;
+			target = 8800EE2879D87F322AE1BAC42F6093D1 /* TKRouter */;
+			targetProxy = 8165B53976B81EC74F5EE7865576EB5B /* PBXContainerItemProxy */;
+		};
+		EF045D120A6C1037738FD3EB6B147574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TKRouter_Example";
+			target = AB7D7E2A56938419554180737A0D841E /* Pods-TKRouter_Example */;
+			targetProxy = A2E2A8D4047F903CD6D913CFBE5E130A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0619C84474F6333B05D47A9949FCA546 /* Debug */ = {
+		1F409A2121F38ADAB959691022D4F8D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 946788601A5FD91BC96B370B88DDC003 /* Pods-TKRouter_Example.debug.xcconfig */;
+			baseConfigurationReference = BB0DFD01118C14310B7C558B89051C53 /* TKRouter.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TKRouter/TKRouter-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TKRouter;
+				PRODUCT_NAME = TKRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		0BC2CBA7DCE0C17D5296A38A4A146218 /* Release */ = {
+		4B7615AB6734B3520C2B316FFC7EA776 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C686C8ABD4E542331CA4EDB53251AEC5 /* Pods-TKRouter_Example.release.xcconfig */;
+			baseConfigurationReference = 3BE7D7E0FB428B1E76B1FFBC3F609A61 /* Pods-TKRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -373,7 +384,7 @@
 			};
 			name = Release;
 		};
-		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -405,8 +416,88 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5B4B3F8D50B9590EE41114C774E8CC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402DB8BDEA792672EFB83F64EB748A1F /* Pods-TKRouter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -427,64 +518,21 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		395CC7953BD8F397BA490346D8D71E87 /* Release */ = {
+		A3790D88163D09B88B1C18619A484C54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43CB53AE16EDE30990AC1C935928707C /* TKRouter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TKRouter/TKRouter-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TKRouter;
-				PRODUCT_NAME = TKRouter;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4D6C77665A66C10C38F0F9364C837605 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ACEB868B0103BDC64B31ADC67353180 /* Pods-TKRouter_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8115C358FC2F0A109B6AD406817579E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43CB53AE16EDE30990AC1C935928707C /* TKRouter.xcconfig */;
+			baseConfigurationReference = BB0DFD01118C14310B7C558B89051C53 /* TKRouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -505,9 +553,9 @@
 			};
 			name = Debug;
 		};
-		BC1218BBC20A6661A9D98B81688717F1 /* Debug */ = {
+		D1FDB90D57DF6BD30099B32844A1ED2C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEB57164B2273240AE954A93B1350789 /* Pods-TKRouter_Tests.debug.xcconfig */;
+			baseConfigurationReference = 242A256F242643297A19AB7A85D8CAD6 /* Pods-TKRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -526,104 +574,67 @@
 			};
 			name = Debug;
 		};
-		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+		FAC563601AAEC83E58B8CD302DF15003 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0838CB36F81B7F9AEDD65EDCC5F9D1E1 /* Pods-TKRouter_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		28D088651DBB2C7158AA2FAC471D1C11 /* Build configuration list for PBXNativeTarget "Pods-TKRouter_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
-				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+				D1FDB90D57DF6BD30099B32844A1ED2C /* Debug */,
+				4B7615AB6734B3520C2B316FFC7EA776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		331F07A17AEE37B817F855988866274E /* Build configuration list for PBXNativeTarget "Pods-TKRouter_Example" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0619C84474F6333B05D47A9949FCA546 /* Debug */,
-				0BC2CBA7DCE0C17D5296A38A4A146218 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75E11D45F32BF07306B61F188B8C2DB1 /* Build configuration list for PBXNativeTarget "TKRouter" */ = {
+		8C8EF9FE536854D7EFEC5FC6CEC74716 /* Build configuration list for PBXNativeTarget "Pods-TKRouter_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8115C358FC2F0A109B6AD406817579E8 /* Debug */,
-				395CC7953BD8F397BA490346D8D71E87 /* Release */,
+				FAC563601AAEC83E58B8CD302DF15003 /* Debug */,
+				5B4B3F8D50B9590EE41114C774E8CC83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D370BAA22A81C43DE7A45D16ADCD8630 /* Build configuration list for PBXNativeTarget "Pods-TKRouter_Tests" */ = {
+		DDB280C38437E2FF7E76755F457E1A1E /* Build configuration list for PBXNativeTarget "TKRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC1218BBC20A6661A9D98B81688717F1 /* Debug */,
-				4D6C77665A66C10C38F0F9364C837605 /* Release */,
+				A3790D88163D09B88B1C18619A484C54 /* Debug */,
+				1F409A2121F38ADAB959691022D4F8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

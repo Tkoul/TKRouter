@@ -26,7 +26,7 @@
     
     //3. pod开发 多sdk - 依赖第三方sdk！ 比如 项目中用到组件sdk——A 依赖了第三方AFNetWorking， 项目中用到组件sdk——B 依赖了第三方AFNetWorking，那么集成到一起，如果AFNetWorking版本不一致，那样就会报错！逼迫我们下掉其中一个sdk的AFNetWorking，比如去掉A的AFNetWorking，让A和B共用AFNetWorking，这个时候，在A单独开发的时候，我么引入虚拟的AFNetWorking，调用api的时候，不要引入AFNetWorking的头文件，因为最终要和B集成，A执行pod repo push 的时候，不能带上AFNetWorking，那么引入头文件就会因为不含邮AFNetWorking而报错，所以用万能路由就可以解决！顺利的吧A repo push 到pod库！另外pod依赖的版本必须是一致的。我们知道在大版本甚至一个sdk的api是不会变更的！ 那么我们就不用关心AFNetWorking的版本，以及冲突问题，直接使用路由，也不需要关心引入头文件，直接使用B的组件AFNetWorking，直接调用方法!
     
-    NSArray  *titleArry = @[@"获取类",@"调用类方法-对象类型",@"初始化实例对象",@"实例方法-基本数据类型",@"实例方法-基结构体",@"实例方法-block块",@"push视图+例子",@"sdddd"];
+    NSArray  *titleArry = @[@"获取类",@"调用类方法-对象类型",@"初始化实例对象",@"实例方法-基本数据类型",@"实例方法-基结构体",@"实例方法-block块",@"push视图+例子"];
     for (int i=0; i<titleArry.count; i++) {
         UIButton  *btnTest = [UIButton buttonWithType:UIButtonTypeCustom];
         btnTest.frame = CGRectMake((UIScreen.mainScreen.bounds.size.width-180)/2, 80+60*i, 180, 50);

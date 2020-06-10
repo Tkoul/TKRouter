@@ -18,7 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+   1.基础路由。Api万能路由利用AOP编程思想，指针参数，等来实现任意object-c的API调用。
+     支持基本数据类型，对象类型，代理，block，枚举，结构体等（系统自带和自定义均支持）
+   2.本sdk用于组件化开发模式，多sdk嵌套等复杂的情况！完全解决项目开发的耦合度
+   3.任意调用，随心所欲。可以在上面拓展hashc跳转表需求。
                        DESC
 
   s.homepage         = 'https://github.com/Tkoul/TKRouter'
